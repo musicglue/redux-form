@@ -1,12 +1,12 @@
 {
-  "name": "redux-form",
-  "version": "6.0.0-alpha.15",
+  "name": "@musicglue/redux-form",
+  "version": "0.0.0",
   "description": "A higher order component decorator for forms using Redux and React",
   "main": "./lib/index.js",
   "jsnext:main": "./es/index.js",
   "repository": {
     "type": "git",
-    "url": "https://github.com/erikras/redux-form"
+    "url": "https://github.com/musicglue/redux-form"
   },
   "scripts": {
     "build": "npm run build:lib && npm run build:es && npm run build:umd && npm run build:umd:min",
@@ -33,12 +33,12 @@
     "form",
     "decorator"
   ],
-  "author": "Erik Rasmussen <rasmussenerik@gmail.com> (http://github.com/erikras)",
+  "author": "Music Glue, Erik Rasmussen <rasmussenerik@gmail.com> (http://github.com/erikras)",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/erikras/redux-form/issues"
+    "url": "https://github.com/musicglue/redux-form/issues"
   },
-  "homepage": "https://redux-form.com/",
+  "homepage": "https://github.com/musicglue/redux-form",
   "dependencies": {
     "deep-equal": "^1.0.1",
     "es6-error": "^3.0.0",
@@ -99,7 +99,7 @@
     "dist",
     "immutable.js"
   ],
-  "npmName": "redux-form",
+  "npmName": "@musicglue/redux-form",
   "npmFileMap": [
     {
       "basePath": "/dist/",
